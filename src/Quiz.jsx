@@ -60,14 +60,14 @@ function Quiz() {
 
   return (
     <>
-        <div className='d-flex align-items-center' style={{height: '100vh', width:'100%',border: '',backgroundImage: 'url("https://t4.ftcdn.net/jpg/03/45/88/07/360_F_345880772_zIT2mkdCzTthplO7xqaGGrMspN0jw0ll.jpg")',backgroundRepeat: 'no-repeat',backgroundSize: '100% 100%'}}>
-        <h1 className=' text-center mt-5'>Quiz App</h1>
-            <div className='quizbox container  mt-5 ' style={{height: '70vh',width: '90%'}}>
+       <div className='dd' style={{height: '100vh', border: '',backgroundImage: 'url("https://img.freepik.com/premium-photo/blue-purple-gradient-neon-light-question-mark-with-concrete-wall-3d-rendering_626958-64.jpg?w=826")',backgroundRepeat: 'no-repeat',backgroundSize: '100% 100% '}}>
+        <h1 className=' d-flex justify-content-center'>Quiz App</h1>
+            <div className='quizbox container mt-5' style={{height: '70vh',width: '130vh'}}>
                 {result?<></>
                 :
                 <>
                 <Row>
-                    <Col className='ms-2 mt-4' >
+                    <Col className='ms-2 mt-4 ' >
                         <div className='index fw-bolder'>{index+1} of {data.length} questions</div>
                         <h4 className='mt-2'>{index+1}. {question.question}</h4>
                     </Col>
